@@ -1,3 +1,24 @@
 #summary Short summary of changes for each version of the xtandem-parser.
+#labels Featured
 
 ----
+
+*Update version 1.0.1*<br/><br/>
+Fixed three bugs: (i) the application would not start if double-clicked from a folder with a space in the folder name; (ii) the open file dialog was too small on certain resolution settings; (iii) sequence annotation contained a bug that caused errors to be thrown after program completion, and failed to correctly annotate terminal residues. All these problems have now been fixed.
+<br/><br/>
+
+*Update version 1.0*<br/><br/>
+The XTandem Parser is now fully functional. The parser has got a bootstrapper class for the memory management. The viewer now supports all ion types and has also a
+function to export identification and spectra information.
+<br/><br/>
+
+*Update version 0.75*<br/><br/>
+The spectrum viewer class now supports a reasonable exception handling.
+<br/><br/>
+
+*Update version 0.7*<br/><br/>
+The program supports now b and y fragment ions and they are shown in the spectrum viewer.
+<br/><br/>
+
+*Update version 0.6*<br/><br/>
+The parser contains now a basic viewer which loads a xtandem output file and shows spectra and identified peptides with modifications.
