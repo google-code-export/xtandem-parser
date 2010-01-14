@@ -3,6 +3,11 @@
 
 ----
 
+*Changes in XTandemParser v1.1.1 - (Jan. 14. 2010):*
+ * BUG FIX: The accessions are now shown correctly in the identifications section.
+
+----
+
 *Changes in XTandemParser v1.1 - (Nov. 24. 2009):*
  * NEW FEATURE: The memory settings are no longer hard coded. Error messages in the XTandemViewer are now sent to the `ErrorLog` text file.
  * FEATURE IMPROVEMENT: Spaces in file names is now supported on all Windows platforms.
