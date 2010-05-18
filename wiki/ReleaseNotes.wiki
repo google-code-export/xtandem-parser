@@ -3,8 +3,19 @@
 
 ----
 
+*Changes in XTandemParser v1.2 - (May 18. 2010):*
+ * FEATURE IMPROVEMENT: Fixed and variable modifications are separated by the parser as given by the XTandem input.
+ * FEATURE IMPROVEMENT: Memory heap was increased for parsing bigger XML files.
+ * FEATURE IMPROVEMENT: Javadoc comes with the current version 1.2.
+ * BUG FIX: Incorrect parsing with empty string tags was corrected.
+ * BUG FIX: A bug was removed concerning the retrieval of the proteinId by the peptideID if the list has more than 9 hits (thanks Marc!).
+
+----
+
 *Changes in XTandemParser v1.1.1 - (Jan. 14. 2010):*
  * BUG FIX: The accessions are now shown correctly in the identifications section.
+
+Download Count: 52
 
 ----
 
@@ -14,6 +25,8 @@
  * BUG FIX: Pressing the Alt key no longer makes the wait icon appear in the main frame.
  * BUG FIX: Help dialog: the "go to top of page link" now works. 
 
+Download Count: ?
+
 ----
 
 *Changes in XTandemParser v1.0.1:*
@@ -21,11 +34,15 @@
  * BUG FIX: the open file dialog was too small on certain resolution settings
  * BUG FIX: sequence annotation contained a bug that caused errors to be thrown after program completion, and failed to correctly annotate terminal residues. All these problems have now been fixed.
 
+Download Count: 2
+
 ----
 
 *Changes in XTandemParser v1.0.:*
  * The XTandem Parser is now fully functional. The parser has got a bootstrapper class for the memory management. The viewer now supports all ion types and has also a
 function to export identification and spectra information.
+
+Download Count: 13
 
 ----
 
