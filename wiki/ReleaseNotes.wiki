@@ -3,6 +3,14 @@
 
 ----
 
+*Changes in XTandemParser v1.2.1 - (June 15. 2010):*
+ * FEATURE IMPROVEMENT: All types of ions with NH3 and H2O losses as well as MH ions are now supported. (Thanks again to Marc Vaudel!) 
+ * FEATURE IMPROVEMENT: Ions with a charge +2, +3 etc. are included. 
+ * FEATURE IMPROVEMENT: Fixed and variable modifications are shown separately in the table and legend of the viewer. 
+ * BUG FIX: A bug concering wrong indexing of the modifications in the viewer was removed. 
+
+----
+
 *Changes in XTandemParser v1.2 - (May 18. 2010):*
  * FEATURE IMPROVEMENT: Fixed and variable modifications are separated by the parser as given by the XTandem input.
  * FEATURE IMPROVEMENT: Memory heap was increased for parsing bigger XML files.
