@@ -1,5 +1,10 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
+ 
+----
+
+*Changes in XTandemParser v1.2.2 - (June 16. 2010):*
+ * BUG FIX: A serious bug concerning multiple modifications on a single peptide was fixed. The error was reported previously by Ron Beavis from the X!Tandem project.
 
 ----
 
