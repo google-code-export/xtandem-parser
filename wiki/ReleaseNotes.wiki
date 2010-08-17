@@ -3,6 +3,13 @@
  
 ----
 
+*Changes in XTandemParser v1.2.3 - (August 17. 2010):*
+ * FEATURE IMPROVEMENT: The XTandem Parser icon is now included in the build and shows up in the target folder.
+ * FEATURE IMPROVEMENT: In XTandem Viewer the spectrum panel now also increases in size when the frame is resized.
+ * LIBRARY UPDATE: Updated compomics-utilities to 3.0.9
+
+----
+
 *Changes in XTandemParser v1.2.2 - (June 16. 2010):*
  * BUG FIX: A serious bug concerning multiple modifications on a single peptide was fixed. The error was reported previously by Ron Beavis from the X!Tandem project.
 
@@ -13,6 +20,8 @@
  * FEATURE IMPROVEMENT: Ions with a charge +2, +3 etc. are included. 
  * FEATURE IMPROVEMENT: Fixed and variable modifications are shown separately in the table and legend of the viewer. 
  * BUG FIX: A bug concering wrong indexing of the modifications in the viewer was removed. 
+
+Download Count: 25
 
 ----
 
