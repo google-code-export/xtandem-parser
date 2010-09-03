@@ -3,8 +3,17 @@
  
 ----
 
+*Changes in XTandemParser v1.2.5 - (September 03. 2010):*
+ * BUGFIX: The identified field is now set to ON or OFF when spectrum has been identified or not.
+
+----
+
+----
+
 *Changes in XTandemParser v1.2.4 - (August 18. 2010):*
  * FEATURE IMPROVEMENT: Made some usefull methods available outside of the package by making them `public`.
+
+Download Count: 10
 
 ----
 
