@@ -3,10 +3,17 @@
  
 ----
 
+*Changes in XTandemParser v1.2.6 - (February 27. 2011):*
+ * NEW FEATURE: Improved parsing of the accession numbers. Now split into accession number and protein description.
+ * FEATURE IMPROVEMENT: Made sure that the first row in the Spectra Files table is selected when a file is opened, thus displaying the first spectrum.
+ * LIBRARY UPDATE: Updated compomics-utilities to 3.0.40 with an improved spectrum panel.
+
+----
+
 *Changes in XTandemParser v1.2.5 - (September 03. 2010):*
  * BUGFIX: The identified field is now set to ON or OFF when spectrum has been identified or not.
 
-----
+Download Count: 77
 
 ----
 
