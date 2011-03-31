@@ -3,11 +3,18 @@
  
 ----
 
+*Changes in XTandemParser v1.3 - (March 31. 2011):*
+ * NEW FEATURE: Multiple domain are supported. e.g. peptide identifications within the same protein. Each peptide now has a list of possible domains.
+ * BUGFIX: The values for input and other parameter were set to NULL as default.
+
+----
+
 *Changes in XTandemParser v1.2.6 - (February 27. 2011):*
  * NEW FEATURE: Improved parsing of the accession numbers. Now split into accession number and protein description.
  * FEATURE IMPROVEMENT: Made sure that the first row in the Spectra Files table is selected when a file is opened, thus displaying the first spectrum.
  * LIBRARY UPDATE: Updated compomics-utilities to 3.0.40 with an improved spectrum panel.
 
+Download Count: 26 (included v.1.2.7)
 ----
 
 *Changes in XTandemParser v1.2.5 - (September 03. 2010):*
