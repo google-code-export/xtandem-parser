@@ -3,8 +3,18 @@
  
 ----
 
+*Changes in XTandemParser v1.3.2 - (April 1. 2011):*
+  * BUG FIX: According to the X!Tandem API documentation the default value for iScoring_bIons and iScoring_yIons should be true and not false. 
+  * BUG FIX: The peptide's fasta file path isn't set in PeptideMap. 
+  * BUG FIX: X! Tandem supports multiple modification masses, this is now also supported by the XTandem Parser.
+
+----
+
+
 *Changes in XTandemParser v1.3.1 - (April 1. 2011):*
  * BUG FIX: fixed two null pointer exceptions that crashed the viewer.
+
+Download Count: 1
 
 ----
 
