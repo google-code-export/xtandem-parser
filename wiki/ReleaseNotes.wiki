@@ -3,10 +3,18 @@
  
 ----
 
+*Changes in XTandemParser v1.3.5 - (September 23. 2011):*
+ * BUG FIX: Added refine modification mass from the input parameters section and fixed the double conversion problem.
+ * BUG FIX: Fixed bug for exporting the identifications results.
+ * BUG FIX: Changed line 304 in InputParams to: if(map.get("SPECMAXPRECURSORCHANGE") != null) 
+
+----
+
 *Changes in XTandemParser v1.3.4 - (July 18. 2011):*
  * BUG FIX: Corrected a bug in the peptide map creation.
  * BUG FIX: Corrected bugs resulting in incorrect modification site assignement.
 
+Download Count: 90
 ----
 
 *Changes in XTandemParser v1.3.2 - (April 1. 2011):*
