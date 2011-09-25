@@ -14,7 +14,8 @@
  * BUG FIX: Corrected a bug in the peptide map creation.
  * BUG FIX: Corrected bugs resulting in incorrect modification site assignement.
 
-Download Count: 90
+Download Count: 50
+
 ----
 
 *Changes in XTandemParser v1.3.2 - (April 1. 2011):*
@@ -22,7 +23,7 @@ Download Count: 90
   * BUG FIX: The peptide's fasta file path isn't set in PeptideMap. 
   * BUG FIX: X! Tandem supports multiple modification masses, this is now also supported by the XTandem Parser.
 
-Download Count: 70
+Download Count: 72
 
 ----
 
@@ -30,7 +31,7 @@ Download Count: 70
 *Changes in XTandemParser v1.3.1 - (April 1. 2011):*
  * BUG FIX: fixed two null pointer exceptions that crashed the viewer.
 
-Download Count: 1
+Download Count: 8
 
 ----
 
@@ -38,14 +39,14 @@ Download Count: 1
  * NEW FEATURE: Multiple domain are supported. e.g. peptide identifications within the same protein. Each peptide now has a list of possible domains.
  * BUGFIX: The values for input and other parameter were set to NULL as default.
 
-Download Count: 2
+Download Count: 6
 
 ----
 
 *Changes in XTandemParser v1.2.7 - (March 9. 2011):*
  * LIBRARY UPDATE: Updated compomics-utilities to 3.0.46 with an improved spectrum panel.
 
-Download Count: 18 
+Download Count: 21
 
 ----
 
@@ -54,21 +55,21 @@ Download Count: 18
  * FEATURE IMPROVEMENT: Made sure that the first row in the Spectra Files table is selected when a file is opened, thus displaying the first spectrum.
  * LIBRARY UPDATE: Updated compomics-utilities to 3.0.40 with an improved spectrum panel.
 
-Download Count: 8
+Download Count: 11
 
 ----
 
 *Changes in XTandemParser v1.2.5 - (September 03. 2010):*
  * BUGFIX: The identified field is now set to ON or OFF when spectrum has been identified or not.
 
-Download Count: 77
+Download Count: 85
 
 ----
 
 *Changes in XTandemParser v1.2.4 - (August 18. 2010):*
  * FEATURE IMPROVEMENT: Made some usefull methods available outside of the package by making them `public`.
 
-Download Count: 10
+Download Count: 56
 
 ----
 
@@ -77,14 +78,14 @@ Download Count: 10
  * FEATURE IMPROVEMENT: In XTandem Viewer the spectrum panel now also increases in size when the frame is resized.
  * LIBRARY UPDATE: Updated compomics-utilities to 3.0.9
 
-Download Count: 1
+Download Count: 6
 
 ----
 
 *Changes in XTandemParser v1.2.2 - (June 16. 2010):*
  * BUG FIX: A serious bug concerning multiple modifications on a single peptide was fixed. The error was reported previously by Ron Beavis from the X!Tandem project.
 
-Download Count: 25
+Download Count: 30
 
 ----
 
@@ -109,7 +110,7 @@ Download Count: 25
 *Changes in XTandemParser v1.1.1 - (Jan. 14. 2010):*
  * BUG FIX: The accessions are now shown correctly in the identifications section.
 
-Download Count: 52
+Download Count: 58
 
 ----
 
@@ -128,7 +129,7 @@ Download Count: ?
  * BUG FIX: the open file dialog was too small on certain resolution settings
  * BUG FIX: sequence annotation contained a bug that caused errors to be thrown after program completion, and failed to correctly annotate terminal residues. All these problems have now been fixed.
 
-Download Count: 2
+Download Count: 7
 
 ----
 
@@ -136,7 +137,7 @@ Download Count: 2
  * The XTandem Parser is now fully functional. The parser has got a bootstrapper class for the memory management. The viewer now supports all ion types and has also a
 function to export identification and spectra information.
 
-Download Count: 13
+Download Count: 19
 
 ----
 
