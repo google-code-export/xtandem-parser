@@ -3,10 +3,18 @@
  
 ----
 
+*Changes in XTandemParser v1.3.6 - (December 19. 2011):*
+ * FEATURE IMPROVEMENT: Changed several variables from int to long in PerformParams, to be able to handle larger numbers.
+ * BUG FIX: If the look and feel is not supported the default Java look and feel is used instead.
+
+----
+
 *Changes in XTandemParser v1.3.5 - (September 23. 2011):*
  * BUG FIX: Added refine modification mass from the input parameters section and fixed the double conversion problem.
  * BUG FIX: Fixed bug for exporting the identifications results.
  * BUG FIX: Changed line 304 in InputParams.java to: if(map.get("SPECMAXPRECURSORCHANGE") != null) 
+
+Download Count: 36
 
 ----
 
