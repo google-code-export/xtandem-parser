@@ -3,9 +3,16 @@
  
 ----
 
+*Changes in XTandemParser v1.3.7 - (February 24. 2012):*
+ * BUG FIX: The parser now returns a null object (instead of crashing) if X!Tandem was unable to construct a reasonable estimate of the protein expectation value. (This can happen when none of the peptide assignments has an e-value < 1, which means that all of the assignments are no better than would be expected at random.)
+
+----
+
 *Changes in XTandemParser v1.3.6 - (December 19. 2011):*
  * FEATURE IMPROVEMENT: Changed several variables from int to long in PerformParams, to be able to handle larger numbers.
  * BUG FIX: If the look and feel is not supported the default Java look and feel is used instead.
+
+Download Count: 38
 
 ----
 
