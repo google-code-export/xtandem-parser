@@ -3,8 +3,15 @@
  
 ----
 
+*Changes in XTandemParser v1.3.8 - (February 26. 2012):*
+ * NEW FEATURE: Precursor retention time can now be extracted using the getPrecursorRetentionTime method in the Spectrum class.
+
+----
+
 *Changes in XTandemParser v1.3.7 - (February 24. 2012):*
  * BUG FIX: The parser now returns a null object (instead of crashing) if X!Tandem was unable to construct a reasonable estimate of the protein expectation value. (This can happen when none of the peptide assignments has an e-value < 1, which means that all of the assignments are no better than would be expected at random.)
+
+Download Count: 5
 
 ----
 
