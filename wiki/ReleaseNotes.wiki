@@ -3,8 +3,29 @@
  
 ----
 
+*Changes in XTandemParser v1.3.11 - (April 8. 2012):*
+ * BUG FIX: Corrected a bug impairing the parsing of files when other ions than b and y were searched. 
+
+----
+
+*Changes in XTandemParser v1.3.10 - (March 1. 2012):*
+ * NEW FEATURE: Added support for for the "scoring, algorithm" input parameter.
+
+Download Count: 32
+
+----
+
+*Changes in XTandemParser v1.3.9 - (February 28. 2012):*
+ * BUG FIX: Fixed a bug in the database URL mappings where the URLs were overwritten due to the key used not being unique.
+
+Download Count: 4
+
+----
+
 *Changes in XTandemParser v1.3.8 - (February 26. 2012):*
  * NEW FEATURE: Precursor retention time can now be extracted using the getPrecursorRetentionTime method in the Spectrum class.
+
+Download Count: 4
 
 ----
 
