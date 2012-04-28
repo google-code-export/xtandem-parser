@@ -1,10 +1,16 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
- 
+
+*Changes in XTandemParser v1.4 - (April 28. 2012):*
+ * BUG FIX: Fixed a bug where domain id was assumed to be unique (something it not always is...).
+ * NOTE: Version 1.4 is not fully backwards compatible. The method getDomainKey() now ought to be used instead of getDomainID() as domain id is not always unique. Additionally proteinMap.getProtein(domain.getProteinKey()) replaces getProteinWithDomainKey(domain.getDomainID()). 
+
 ----
 
 *Changes in XTandemParser v1.3.11 - (April 8. 2012):*
- * BUG FIX: Corrected a bug impairing the parsing of files when other ions than b and y were searched. 
+ * BUG FIX: Corrected a bug impairing the parsing of files when other ions than b and y were searched.
+
+Download Count: 11 
 
 ----
 
