@@ -1,9 +1,16 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.4.1 - (July 9. 2012):*
+ * BUG FIX: Fixed a typo in InputParams where C_TERMRESMODMASS could not be extracted.
+
+----
+
 *Changes in XTandemParser v1.4 - (April 28. 2012):*
  * BUG FIX: Fixed a bug where domain id was assumed to be unique (something it not always is...).
- * NOTE: Version 1.4 is not fully backwards compatible. The method getDomainKey() now ought to be used instead of getDomainID() as domain id is not always unique. Additionally proteinMap.getProtein(domain.getProteinKey()) replaces getProteinWithDomainKey(domain.getDomainID()). 
+ * NOTE: Version 1.4 is not fully backwards compatible. The method getDomainKey() now ought to be used instead of getDomainID() as domain id is not always unique. Additionally proteinMap.getProtein(domain.getProteinKey()) replaces getProteinWithDomainKey(domain.getDomainID()).
+
+Download Count: 43
 
 ----
 
