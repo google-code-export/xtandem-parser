@@ -1,8 +1,16 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.5.0 - (August 13. 2012):*
+ * BUG FIX: Fixed a reported issue where substitutions where not treated correctly.
+ * BUG FIX: Fixed a reported issues where proteins with multiple domains were not parsed correctly.
+
+----
+
 *Changes in XTandemParser v1.4.1 - (July 9. 2012):*
  * BUG FIX: Fixed a typo in InputParams where C_TERMRESMODMASS could not be extracted.
+
+Download Count: 10
 
 ----
 
