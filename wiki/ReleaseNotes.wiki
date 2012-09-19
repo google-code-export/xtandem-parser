@@ -1,9 +1,18 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.5.3 - (September 19. 2012):*
+ * BUG FIX: Fixed a bug in the XTandemIdfileReader where fixed modifications were handled incorrectly, resulting in issues when more than one fixed modification was found on the same peptide.
+ * FEATURE IMPROVEMENT: Made the code Maven 3 compliant.
+ * LIBRARY UPDATE: Updated utilities to version 3.8.12.
+
+----
+
 *Changes in XTandemParser v1.5.0 - (August 13. 2012):*
  * BUG FIX: Fixed a reported issue where substitutions where not treated correctly.
  * BUG FIX: Fixed a reported issues where proteins with multiple domains were not parsed correctly.
+
+Download Count: 10
 
 ----
 
