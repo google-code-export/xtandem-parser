@@ -1,10 +1,21 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.5.10 - (December 31. 2012):*
+ * FEATURE IMPROVEMENT: Added the code required to be able to get the complete protein description tag. (In the Protein object the getDescription method should now be used instead of the getLabel method, as getLabel often returns a shortened version of the description. The getLabel method is kept for cases where the protein note tag with the protein description is not provided.)
+ * FEATURE IMPROVEMENT: Improved the error message thrown if an unknown amino acid is found when calculating the peptide mass.
+ * FEATURE IMPROVEMENT: Removed the fixed modifications from the IDfilereader.
+ * FEATURE IMPROVEMENT: JavaDoc and source is now part of the build.
+ * LIBRARY UPDATE: Updated utilities to version 3.10.24..
+
+----
+
 *Changes in XTandemParser v1.5.3 - (September 19. 2012):*
  * BUG FIX: Fixed a bug in the XTandemIdfileReader where fixed modifications were handled incorrectly, resulting in issues when more than one fixed modification was found on the same peptide.
  * FEATURE IMPROVEMENT: Made the code Maven 3 compliant.
  * LIBRARY UPDATE: Updated utilities to version 3.8.12.
+
+Download Count: 58
 
 ----
 
