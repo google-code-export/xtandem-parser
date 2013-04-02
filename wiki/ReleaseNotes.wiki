@@ -1,12 +1,25 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.5.14 - (April 2. 2012):*
+ * FEATURE IMPROVEMENT: Spectrum titles are now corrected in the id file reader.
+ * BUG FIX: Refinement modifications are now considered as variable and not fixed as before.
+ * BUG FIX: Fixed a bug where the residueModificationMass values where not parsed correctly. (These are the secondary sets of modifications added to support multiple sets of modifications analyzed simultaneously. See http://www.thegpm.org/tandem/api/refmm.html for details.) 
+ * BUG FIX: Made a minor change to the pom file to handle a recursive issues that can occur when opening the project in NetBeans 7.2.
+ * BUG FIX: Fixed some UTF-8 code issues.
+ * BUG FIX: Tried to fix an issue in the XTandemIdfileReader where X!Tandem's adding of the retention time to the spectrum tiles caused problems.
+ * BUG FIX: Fixed some issues detected by FindBugs.
+
+----
+
 *Changes in XTandemParser v1.5.10 - (December 31. 2012):*
  * FEATURE IMPROVEMENT: Added the code required to be able to get the complete protein description tag. (In the Protein object the getDescription method should now be used instead of the getLabel method, as getLabel often returns a shortened version of the description. The getLabel method is kept for cases where the protein note tag with the protein description is not provided.)
  * FEATURE IMPROVEMENT: Improved the error message thrown if an unknown amino acid is found when calculating the peptide mass.
  * FEATURE IMPROVEMENT: Removed the fixed modifications from the IDfilereader.
  * FEATURE IMPROVEMENT: JavaDoc and source is now part of the build.
- * LIBRARY UPDATE: Updated utilities to version 3.10.24..
+ * LIBRARY UPDATE: Updated utilities to version 3.10.24.
+
+Download Count: 43
 
 ----
 
