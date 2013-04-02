@@ -1,7 +1,7 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
-*Changes in XTandemParser v1.5.14 - (April 2. 2012):*
+*Changes in XTandemParser v1.5.14 - (April 2. 2013):*
  * FEATURE IMPROVEMENT: Spectrum titles are now corrected in the id file reader.
  * BUG FIX: Refinement modifications are now considered as variable and not fixed as before.
  * BUG FIX: Fixed a bug where the residueModificationMass values where not parsed correctly. (These are the secondary sets of modifications added to support multiple sets of modifications analyzed simultaneously. See http://www.thegpm.org/tandem/api/refmm.html for details.) 
