@@ -1,6 +1,18 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.6.0 - (June 20. 2013):*
+ * BUG FIX: Fixed a bug where the fragment ion mass error was hard coded to 0.3. It can now be set as a parameter in the InSilicoDigester constructor and in the getFragmentIonsForPeptide method in the XTandemFile class. (Note that the accuracy is still hard coded to 0.3 in the viewer.)
+
+----
+
+*Changes in XTandemParser v1.5.15 - (April 26. 2013):*
+ * BUG FIX: Fixed a problem with starting the viewer on the latest Java release.
+
+Download Count: 32
+
+----
+
 *Changes in XTandemParser v1.5.14 - (April 2. 2013):*
  * FEATURE IMPROVEMENT: Spectrum titles are now corrected in the id file reader.
  * BUG FIX: Refinement modifications are now considered as variable and not fixed as before.
@@ -9,6 +21,8 @@
  * BUG FIX: Fixed some UTF-8 code issues.
  * BUG FIX: Tried to fix an issue in the XTandemIdfileReader where X!Tandem's adding of the retention time to the spectrum tiles caused problems.
  * BUG FIX: Fixed some issues detected by FindBugs.
+
+Download Count: 12
 
 ----
 
