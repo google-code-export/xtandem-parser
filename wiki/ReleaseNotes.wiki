@@ -1,8 +1,17 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.7.0 - (August 24. 2013):*
+ * NEW FEATURE: Added a new import mode where identification details can be skipped.
+ * NEW FEATURE: Added support for setting the fragment ion accuracy in the viewer.
+ * LIBRARY UPDATE: Updated utilities to version 3.14.28.
+
+----
+
 *Changes in XTandemParser v1.6.0 - (June 20. 2013):*
  * BUG FIX: Fixed a bug where the fragment ion mass error was hard coded to 0.3. It can now be set as a parameter in the InSilicoDigester constructor and in the getFragmentIonsForPeptide method in the XTandemFile class. (Note that the accuracy is still hard coded to 0.3 in the viewer.)
+
+Download Count: 46
 
 ----
 
