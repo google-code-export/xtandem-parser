@@ -3,7 +3,6 @@
 
 *Changes in XTandemParser v1.7.0 - (August 24. 2013):*
  * NEW FEATURE: Added a new import mode where identification details can be skipped.
- * NEW FEATURE: Added support for setting the fragment ion accuracy in the viewer.
  * LIBRARY UPDATE: Updated utilities to version 3.14.28.
 
 ----
