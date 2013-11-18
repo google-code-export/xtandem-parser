@@ -1,8 +1,16 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.7.3 - (November 18. 2013):*
+ * FEATURE IMPROVEMENT: Removed the protein remapping in the id file reader.
+ * LIBRARY UPDATE: Updated utilities to version 3.17.7.
+
+----
+
 *Changes in XTandemParser v1.7.1 - (September 13. 2013):*
  * BUG FIX: The input (and performance) parameters are now again included when in the import when using the skipDetails option, as these were needed when mapping the PTMs.
+
+Download Count: 36
 
 ----
 
