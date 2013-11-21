@@ -1,9 +1,16 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.7.4 - (November 21. 2013):*
+ * LIBRARY UPDATE: Updated utilities to version 3.18.0.
+
+----
+
 *Changes in XTandemParser v1.7.3 - (November 18. 2013):*
  * FEATURE IMPROVEMENT: Removed the protein remapping in the id file reader.
  * LIBRARY UPDATE: Updated utilities to version 3.17.7.
+
+Download Count: 4
 
 ----
 
