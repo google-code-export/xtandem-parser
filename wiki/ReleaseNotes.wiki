@@ -1,8 +1,15 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.7.5 - (December 27. 2013):*
+ * BUG FIX: Corrected a bug where wrong PTM sites were returned in the XTandemIdfileReader.
+
+----
+
 *Changes in XTandemParser v1.7.4 - (November 21. 2013):*
  * LIBRARY UPDATE: Updated utilities to version 3.18.0.
+
+Download Count: 9
 
 ----
 
