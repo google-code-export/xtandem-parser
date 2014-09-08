@@ -1,6 +1,11 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.7.14 - (September 8. 2014):*
+ * LIBRARY UPDATE: Updated utilities to version 3.36.0.
+
+----
+
 *Changes in XTandemParser v1.7.13 - (August 19. 2014):*
  * LIBRARY UPDATE: Updated utilities to version 3.35.0.
 
