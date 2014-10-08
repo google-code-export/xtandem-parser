@@ -1,6 +1,11 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.7.15 - (October 8. 2014):*
+ * FEATURE IMPROVEMENT: Minor corrections in the ID file reader.
+
+----
+
 *Changes in XTandemParser v1.7.14 - (September 8. 2014):*
  * LIBRARY UPDATE: Updated utilities to version 3.36.0.
 
