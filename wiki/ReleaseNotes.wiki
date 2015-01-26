@@ -1,8 +1,14 @@
 #summary Short summary of changes for each version of the xtandem-parser.
 #labels Featured
 
+*Changes in XTandemParser v1.7.18 - (January 26. 2015):*
+ * BUF FIX: Fixed a bug in the PTM mapping where modifications where categorized as fixed or variable based on the PTM mass shift alone. Which broke down for iTRAQ searches where the same mass is found as both a fixed and variable modification. The modified amino acid and the location is now is in addition to the mass.
+
+----
+
 *Changes in XTandemParser v1.7.17 - (December 11. 2014):*
  * LIBRARY UPDATE: Updated utilities to version 3.43.24.
+
 ----
 
 *Changes in XTandemParser v1.7.15 - (October 8. 2014):*
